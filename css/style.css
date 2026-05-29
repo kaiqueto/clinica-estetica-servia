@@ -1,0 +1,19 @@
+/* Coisas do site inteiro:
+
+body
+h1
+p
+container
+section */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     font-family: "IBM Plex Serif", serif;
+}
+ body {
+            height: 200vh;
+            background-color: #f5f5f5;
+        }

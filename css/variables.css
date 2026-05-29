@@ -1,0 +1,124 @@
+:root{
+
+    /* ===========================================
+                CORES BASE
+    =========================================== */
+
+    /* Creme Claro */
+    --color-base-100: #FFF2DF;
+
+    /* Bege Claro */
+    --color-base-200: #F8D4A0;
+
+    /* Dourado Suave */
+    --color-base-300: #f5c76c;
+
+    /* Dourado Principal */
+    --color-base-400: #d4a64c;
+
+    /* Bege Dourado secundário */
+    --color-base-500: #D0A76C;
+
+    /* Marrom Dourado */
+    --color-base-600: #A68358;
+
+    /* Dourado Escuro */
+    --color-base-700: #9A6A27;
+
+    /* Verde Petróleo */
+    --color-base-800: #2A3E3F;
+
+    /* Verde Petróleo:hover */
+    --color-base-801: #2f4c4e;
+
+
+
+    /* ===========================================
+            ESTRUTURA E FUNDOS
+    =========================================== */
+
+    /* Fundo Principal */
+    --color-background-primary: #FDFAF6;
+
+    /* Fundo Secundário */
+    --color-background-secondary: #F5EFE6;
+
+    /* Fundo Linho suave */
+    --color-background-tertiary: #E8DDD0;
+
+    /* Divisores */
+    --color-divider: #C8BAA8;
+
+    /* Texto/Elemento Médio */
+    --color-structure-medium: #7A6A58;
+
+    /* Fundo Escuro */
+    --color-background-dark: #AE9A82;
+
+
+
+    /* ===========================================
+        COMPLEMENTAR PRIMÁRIO
+        CTA / ÍCONES / DESTAQUES
+    =========================================== */
+
+    /* Rosa Muito Claro */
+    --color-primary-lightest: #FDF3F0;
+
+    /* Rosa Claro */
+    --color-primary-light: #F5D8D0;
+
+    /* Rosa Médio */
+    --color-primary-medium: #E8A898;
+
+    /* Terracota */
+    --color-primary-dark: #C47060;
+
+    /* Marrom Avermelhado */
+    --color-primary-deep: #8A3E30;
+
+    /* Dourado Complementar */
+    --color-primary-gold: #BE9A65;
+
+    --color-primary-lightPink: #f3d2b8;
+
+    /* ===========================================
+        COMPLEMENTAR SECUNDÁRIO
+        BEM-ESTAR / NATURAL
+    =========================================== */
+
+    /* Verde Muito Claro */
+    --color-secondary-lightest: #EEF2EE;
+
+    /* Verde Claro */
+    --color-secondary-light: #D0DDD0;
+
+    /* Verde Médio */
+    --color-secondary-medium: #8AAE8A;
+
+    /* Verde Escuro */
+    --color-secondary-dark: #4A6B4A;
+
+    /* Verde Profundo */
+    --color-secondary-deep: #2E4E2E;
+
+
+
+    /* ===========================================
+                CORES DE TEXTO
+    =========================================== */
+    --color-text-purewhite: #ffffff;
+    /* Branco Principal */
+    --color-text-white: #f4f4f4;
+
+    /* Branco Bege */
+    --color-text-soft: #F0EBE3;
+
+    /* Texto Marrom */
+    --color-text-primary: #4A3F35;
+
+    /* Texto Escuro */
+    --color-text-dark: #2A2220;
+
+    --color-text-topBar: #5b4b43;
+}
