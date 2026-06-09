@@ -1,15 +1,23 @@
 /* Coisas do site inteiro: */
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600;700&family=Julius+Sans+One&family=Inter:wght@400;500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600;700&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-     font-family: "IBM Plex Serif", serif;
-}
- body {
-            height: 200vh;
-            background-color: #f5f5f5;
-        }
+/* 1. Tokens */
+@import 'variables.css';
+
+/* 2. Reset e Global */
+@import 'reset.css';
+@import 'global.css';
+
+/* 3. Layout */
 
 
+/* 4. Componentes */
+@import 'components/header.css';
+@import 'components/footer.css';
+@import 'components/topbar.css';
+@import 'components/button.css';
+
+/* Páginas */
+@import 'pages/servicos.css';
+@import 'pages/home.css';

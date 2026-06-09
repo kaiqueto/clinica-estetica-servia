@@ -8,16 +8,22 @@ body {
   font-size:        var(--text-size-body);         /* Equivalente ao h4 (16px) */
   font-weight:      var(--font-weight-regular);
   line-height:      var(--text-leading-body);      /* 1.7 */
-  color:            var(--color-text-primary);     /* Texto Marrom */
-  background-color: var(--color-bg-primary);       /* Off-white */
+  color:            var(--color-text-primary);   /* Texto Marrom */
+  background-color: var(--color-bg-primary);     /* Off-white */
 }
 
 /* Configuração Padrão de Títulos */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);          /* Julius Sans One */
-  line-height: var(--text-leading-title);         /* 1.2 */
+h1,h2,h3{
+    font-family: var(--font-family-title);          /* Julius Sans One */
+    font-weight: var(--font-weight-regular);      /* 1.2 */
+    line-height: var(--text-leading-title);
+    color: var(--color-text-dark);                /* Texto Escuro */
+}
+h4, h5, h6 {
+  font-family: var(--font-family-body);          
+  line-height: var(--text-leading-title);         
   font-weight: var(--font-weight-medium);
-  color:       var(--color-text-dark);            /* Texto Escuro */
+  color:       var(--color-text-dark);        
 }
 
 /* Estrutura de Layout */
@@ -25,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 1400px;
   margin-inline: auto;
-  padding-inline: var(--spacing-pad-md);          /* Espaçamento conforme seu root */
+  padding-inline: var(--spacing-pad-md); 
 }
 
 @media (max-width: 768px) {
