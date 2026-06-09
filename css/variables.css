@@ -1,127 +1,3 @@
-:root{
-
-    /* ===========================================
-                CORES BASE
-    =========================================== */
-
-    /* Creme Claro */
-    --color-base-100: #FFF2DF;
-
-    /* Bege Claro */
-    --color-base-200: #F8D4A0;
-
-    /* Dourado Suave */
-    --color-base-300: #f5c76c;
-
-    /* Dourado Principal */
-    --color-base-400: #d4a64c;
-
-    /* Bege Dourado secundário */
-    --color-base-500: #D0A76C;
-
-    /* Marrom Dourado */
-    --color-base-600: #A68358;
-
-    /* Dourado Escuro */
-    --color-base-700: #9A6A27;
-
-    /* Verde Petróleo */
-    --color-base-800: #2A3E3F;
-
-    /* Verde Petróleo:hover */
-    --color-base-801: #2f4c4e;
-
-
-
-    /* ===========================================
-            ESTRUTURA E FUNDOS
-    =========================================== */
-
-    /* Fundo Principal */
-    --color-background-primary: #FDFAF6;
-
-    /* Fundo Secundário */
-    --color-background-secondary: #F5EFE6;
-
-    /* Fundo Linho suave */
-    --color-background-tertiary: #E8DDD0;
-
-    /* Divisores */
-    --color-divider: #C8BAA8;
-
-    /* Texto/Elemento Médio */
-    --color-structure-medium: #7A6A58;
-
-    /* Fundo Escuro */
-    --color-background-dark: #AE9A82;
-
-
-
-    /* ===========================================
-        COMPLEMENTAR PRIMÁRIO
-        CTA / ÍCONES / DESTAQUES
-    =========================================== */
-
-    /* Rosa Muito Claro */
-    --color-primary-lightest: #FDF3F0;
-
-    /* Rosa Claro */
-    --color-primary-light: #F5D8D0;
-
-    /* Rosa Médio */
-    --color-primary-medium: #E8A898;
-
-    /* Terracota */
-    --color-primary-dark: #C47060;
-
-    /* Marrom Avermelhado */
-    --color-primary-deep: #8A3E30;
-
-    /* Dourado Complementar */
-    --color-primary-gold: #BE9A65;
-
-    --color-primary-lightPink: #f3d2b8;
-
-    /* ===========================================
-        COMPLEMENTAR SECUNDÁRIO
-        BEM-ESTAR / NATURAL
-    =========================================== */
-
-    /* Verde Muito Claro */
-    --color-secondary-lightest: #EEF2EE;
-
-    /* Verde Claro */
-    --color-secondary-light: #D0DDD0;
-
-    /* Verde Médio */
-    --color-secondary-medium: #8AAE8A;
-
-    /* Verde Escuro */
-    --color-secondary-dark: #4A6B4A;
-
-    /* Verde Profundo */
-    --color-secondary-deep: #2E4E2E;
-
-
-
-    /* ===========================================
-                CORES DE TEXTO
-    =========================================== */
-    --color-text-purewhite: #ffffff;
-    /* Branco Principal */
-    --color-text-white: #f4f4f4;
-
-    /* Branco Bege */
-    --color-text-soft: #F0EBE3;
-
-    /* Texto Marrom */
-    --color-text-primary: #4A3F35;
-
-    /* Texto Escuro */
-    --color-text-dark: #2A2220;
-
-    --color-text-topBar: #5b4b43;
-}
 
 :root{
     
@@ -147,6 +23,11 @@
     --font-size-t2:   4rem;    /* 64px — hero mobile */
     --font-size-t3:   3rem;    /* 48px */
     --font-size-t4:   2.25rem; /* 36px */
+
+    /* Altura da linha */
+    --text-leading-title:  1.2;
+    --text-leading-body:   1.7;
+    --text-leading-ui:     1.5;
 
     /* PRIMITIVOS */
     --primitive-creme:             #FFF2DF;
@@ -273,16 +154,16 @@
     --font-family-interact:    var(--font-ui);      /* Inter para botões, menus, formulários */
 
     /* Tamanhos por Papel Executado */
-    --text-size-title1:         var(--font-size-t1);
-    --text-size-title2:         var(--font-size-t2);
-    --text-size-title3:         var(--font-size-t3);
-    --text-size-title4:         var(--font-size-t4);
-    --text-size-section-title:    var(--font-size-h1);
-    --text-size-section-subtitle: var(--font-size-h2);
-    --text-size-card-title:       var(--font-size-h3);
-    --text-size-body:             var(--font-size-h4);
-    --text-size-small:            var(--font-size-h5);
-    --text-size-caption:          var(--font-size-h6);
+    --text-size-title1:           var(--font-size-t1); /*96px*/
+    --text-size-title2:           var(--font-size-t2); /*64px*/
+    --text-size-title3:           var(--font-size-t3); /*48px*/
+    --text-size-title4:           var(--font-size-t4); /*36px*/
+    --text-size-section-title:    var(--font-size-h1); /*32px*/
+    --text-size-section-subtitle: var(--font-size-h2); /*24px*/
+    --text-size-card-title:       var(--font-size-h3); /*18px*/
+    --text-size-body:             var(--font-size-h4); /*16px*/
+    --text-size-small:            var(--font-size-h5); /*13px*/
+    --text-size-caption:          var(--font-size-h6); /*10px*/
 
     /* =========================
         Semântico de Espaçamento
@@ -312,3 +193,5 @@
   
   
 }
+
+/*  */
