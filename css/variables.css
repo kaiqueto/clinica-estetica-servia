@@ -211,7 +211,7 @@
     --radius-xl:    24px;
 
     /* =========================
-            Semântico Cor
+            Semântico de Cor
     ============================ */
 
     /* --- MARCA (Identidade Visual / Dourados e Tons Base) --- */
@@ -263,4 +263,52 @@
     --color-text-dark:          var(--primitive-texto-escuro);     /* Antigo text-dark */
     --color-text-muted:         var(--primitive-texto-topbar);     /* Antigo text-topBar */
 
+    /* =========================
+        Semântico de Tipografia
+    ============================ */
+
+    /* Famílias por Função */
+    --font-family-title:       var(--font-display); /* Julius Sans One para grandes títulos */
+    --font-family-body:        var(--font-serif);   /* IBM Plex Serif para leitura confortável */
+    --font-family-interact:    var(--font-ui);      /* Inter para botões, menus, formulários */
+
+    /* Tamanhos por Papel Executado */
+    --text-size-title1:         var(--font-size-t1);
+    --text-size-title2:         var(--font-size-t2);
+    --text-size-title3:         var(--font-size-t3);
+    --text-size-title4:         var(--font-size-t4);
+    --text-size-section-title:    var(--font-size-h1);
+    --text-size-section-subtitle: var(--font-size-h2);
+    --text-size-card-title:       var(--font-size-h3);
+    --text-size-body:             var(--font-size-h4);
+    --text-size-small:            var(--font-size-h5);
+    --text-size-caption:          var(--font-size-h6);
+
+    /* =========================
+        Semântico de Espaçamento
+    ============================ */
+    /* Internos (Paddings) */
+    --spacing-pad-xxs:         var(--space-1); 
+    --spacing-pad-xs:          var(--space-2); 
+    --spacing-pad-sm:          var(--space-3);  
+    --spacing-pad-smd:         var(--space-4); 
+    --spacing-pad-md:          var(--space-5); 
+    --spacing-pad-lg:          var(--space-6);
+    --spacing-pad-xlg:         var(--space-7);
+
+    /* Distâncias e Gaps */
+    --spacing-gap-inline:        var(--space-2); /*8px*/
+    --spacing-gap-stack:         var(--space-4); /*24px*/
+    --spacing-gap-section-split: var(--space-9); /*64px*/
+
+    /* ====================
+     SEMÂNTICOS DE FORMA
+     ====================== */
+  
+    --radius-interactive:      var(--radius-sm);   /* 4px - Botões e campos de formulário */
+    --radius-surface:          var(--radius-md);   /* 8px - Cards de depoimentos e serviços */
+    --radius-media:            var(--radius-lg);   /* 16px - Imagens em destaque, banners */
+    --radius-large:            var(--radius-xl);   /*24px - Extra para definição caso seja necessário*/
+  
+  
 }
