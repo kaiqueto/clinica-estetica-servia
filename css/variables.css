@@ -133,7 +133,7 @@
     --color-accent-champagne:   var(--primitive-rosa-champanhe);   /* Antigo primary-lightPink */
 
     /* --- COMPLEMENTAR SECUNDÁRIO (Feedbacks Positivos / Saúde / Verdes) --- */
-    --color-success-lightest:   var(--primitive-menta-gelo);      /* Antigo secondary-lightest */
+    --color-success-lightest:   var(--primitive-menta-gelo);       /* Antigo secondary-lightest */
     --color-success-light:      var(--primitive-sage-claro);       /* Antigo secondary-light */
     --color-success-medium:     var(--primitive-sage-medio);       /* Antigo secondary-medium */
     --color-success-dark:       var(--primitive-sage-escuro);      /* Antigo secondary-dark */
