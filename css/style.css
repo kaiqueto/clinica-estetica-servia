@@ -11,13 +11,18 @@
 
 /* 3. Layout */
 
-
 /* 4. Componentes */
 @import 'components/header.css';
 @import 'components/footer.css';
 @import 'components/topbar.css';
 @import 'components/button.css';
+@import 'components/banner.css';
+@import'components/section-contato.css';
+@import 'components/carrossel.css';
 
 /* Páginas */
 @import 'pages/servicos.css';
 @import 'pages/home.css';
+@import 'pages/agendamento.css';
+@import 'pages/clinica.css';
+@import 'pages/tipoServico.css';
