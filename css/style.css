@@ -19,6 +19,7 @@
 @import 'components/banner.css';
 @import'components/section-contato.css';
 @import 'components/carrossel.css';
+@import 'components/modal-servicos.css';
 
 /* Páginas */
 @import 'pages/servicos.css';
