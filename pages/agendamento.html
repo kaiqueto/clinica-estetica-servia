@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
 </head>
 
 <body>
@@ -129,6 +128,8 @@
     </div>
 
     <div class="overlay" id="overlay"></div>
+
+     <!-- Banner -->
 
     <section class="banner">
         <div class="banner-topbar">
@@ -398,6 +399,84 @@
         </div>
 
     </section>
+
+        <!-- Modal de Serviço -->
+    <div class="modal fade" id="modalServico" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+
+            <div class="modal-content modal-estetica">
+
+                <button type="button" class="btn-close modal-close" data-bs-dismiss="modal">
+                </button>
+
+                <div class="modal-body">
+                    <div class="row align-items-start">
+                        <div class="col-lg-4">
+
+                            <img id="modalImagem" class="modal-imagem" src="" alt="Serviço">
+
+                        </div>
+
+                        <div class="col-lg-8">
+                            <h2 id="modalTitulo"></h2>
+                            <p id="modalDescricao"></p>
+
+                            <div class="regioes-servico">
+
+                                <span>Regiões do corpo :</span>
+
+                                <span class="badge-regiao"> Corpo Todo
+                                </span>
+                                   
+
+                            </div>
+
+                            <div class="preco-box">
+
+                                <small>Valor do tratamento</small>
+
+                                <h3 id="modalPreco"></h3>
+
+                                <small id="modalDuracao"></small>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="infos-box">
+                        <div class="row">
+                            <div class="col-lg-4">
+
+                                <h4 class="modal-titulo">No que este tratamento ajuda?</h4>
+
+                                <div id="modalBeneficios" class="beneficios-grid"></div>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                <h4 class="modal-titulo">Informações adicionais</h4>
+
+                                <div id="modalInformacoes" class="informacoes-grid"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        
+                        <a href="../pages/agendamento.html" class="btn-agendar-modal">
+                            <i class="fa-solid fa-spa"></i>
+                            Agendar
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <!-- Contato -->
     <section class="section-contato">

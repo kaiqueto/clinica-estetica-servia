@@ -17,7 +17,7 @@
       rgba(245, 238, 230, 0.35) 60%,
       rgba(245, 238, 230, 0.05) 100%
     ),
-    url(../../assets/images/backgroung-banner-home.png);
+    url(../../assets/images/background-banner-home.png);
   background-size:      cover;
   background-position:  center right;
   display:              flex;

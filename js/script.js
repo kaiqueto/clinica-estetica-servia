@@ -189,25 +189,25 @@ const servicos = {
             nome: "Limpeza de Pele Profunda",
             descricao: "Renovação facial.",
             preco: "R$ 120",
-            img: "../assets/images/services/img-limpeza de pele.jpg"
+            img: "../assets/images/services/img-limpeza-de-pele.jpg"
         },
         {
             nome: "Peeling de Diamante",
             descricao: "Brilho e rejuvenescimento.",
             preco: "R$ 180",
-            img: "../assets/images/services/img-limpeza de pele.jpg"
+            img: "../assets/images/services/img-limpeza-de-pele.jpg"
         },
         {
             nome: "Drenagem Facial",
             descricao: "Redução de inchaço.",
             preco: "R$ 100",
-            img: "../assets/images/services/img-limpeza de pele.jpg"
+            img: "../assets/images/services/img-limpeza-de-pele.jpg"
         },
         {
             nome: "Design e Limpeza de Sobrancelhas",
             descricao: "Harmonização do olhar.",
             preco: "R$ 80",
-            img: "../assets/images/services/img-limpeza de pele.jpg"
+            img: "../assets/images/services/img-limpeza-de-pele.jpg"
         }
     ],
 
@@ -216,25 +216,25 @@ const servicos = {
             nome: "Depilação Completa de Pernas",
             descricao: "Pele lisa e macia.",
             preco: "R$ 90",
-            img: "../assets/images/services/img-depilação.jpg"
+            img: "../assets/images/services/img-depilacao.jpg"
         },
         {
             nome: "Depilação Íntima",
             descricao: "Conforto e cuidado.",
             preco: "R$ 70",
-            img: "../assets/images/services/img-depilação.jpg"
+            img: "../assets/images/services/img-depilacao.jpg"
         },
         {
             nome: "Depilação de Axilas",
             descricao: "Resultado duradouro.",
             preco: "R$ 35",
-            img: "../assets/images/services/img-depilação.jpg"
+            img: "../assets/images/services/img-depilacao.jpg"
         },
         {
             nome: "Depilação de Nariz",
             descricao: "Procedimento rápido.",
             preco: "R$ 20",
-            img: "../assets/images/services/img-depilação.jpg"
+            img: "../assets/images/services/img-depilacao.jpg"
         }
     ]
 

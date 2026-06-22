@@ -21,6 +21,7 @@
 @import'components/section-contato.css';
 @import 'components/carrossel.css';
 @import 'components/modal-servicos.css';
+@import 'components/cards-servicos.css';
 
 /* Páginas */
 @import 'pages/servicos.css';

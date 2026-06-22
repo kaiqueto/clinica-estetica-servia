@@ -194,6 +194,7 @@
   padding:       var(--spacing-pad-smd) var(--spacing-pad-sm); 
   text-align:    center;
   transition:    transform var(--ease-navigation);
+  margin-bottom:  var(--spacing-pad-2xl);
 }
  
 .card-beneficio:hover {
@@ -411,7 +412,8 @@
  
 /* Celular */
 @media (max-width: 768px) {
- 
+  
+
   .clinic-intro {
     padding: var(--spacing-pad-lg) var(--spacing-pad-lg); /* 32px 24px — aproximação de 45px 20px */
   }
@@ -465,7 +467,8 @@
     font-size:       var(--text-size-section-subtitle); /* 24px — aproximação de 22px */
     justify-content: center;
   }
- 
+  
+
   .card-beneficio {
     
   }

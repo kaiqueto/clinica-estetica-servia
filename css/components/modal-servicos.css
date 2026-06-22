@@ -121,7 +121,8 @@
 .beneficios-grid {
   display:        flex;
   flex-direction: column;
-  gap:            var(--spacing-pad-sm); 
+  gap:            var(--spacing-pad-sm);
+
 }
  
 .beneficio-item {
@@ -178,7 +179,8 @@
   display:     flex;
   align-items: flex-start;
   gap:         var(--spacing-pad-xs);   
-  margin-top:  var(--spacing-pad-md);   
+  margin-top:  var(--spacing-pad-md);
+  margin-bottom: var(--spacing-pad-smd);  
 }
  
 .info-item i {
