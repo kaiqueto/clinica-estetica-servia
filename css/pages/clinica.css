@@ -42,8 +42,9 @@
  
 .foto-esquerda,
 .foto-direita {
-  height:     100%;
-  min-height: 600px;
+  width:      100%;    
+  height:     100%px;   
+  min-height: 500px;      
   max-height: 850px;
   object-fit: cover;
   display:    block;
@@ -52,10 +53,13 @@
 .texto-direita,
 .texto-esquerda {
   padding:          var(--spacing-pad-2xl) var(--spacing-pad-2xl);
-  display:flex;
+  display:          flex;
   flex-direction:   column;
   justify-content:  center;
-
+  width:            100%;       /*  */
+  min-width:        0;          /*  */
+  overflow-wrap:    break-word; /*  */
+  box-sizing:       border-box; /*  */
 }
  
 .texto-direita h2,
@@ -187,7 +191,7 @@
 .card-beneficio {
   background:    var(--primitive-linho); 
   width:         100%;
-  max-width:     250px;
+  max-width:     280px;
   min-height:    330px;
   margin:        auto;
   border-radius: var(--radius-lg); 
@@ -288,7 +292,8 @@
  
   .texto-direita,
   .texto-esquerda {
-    padding: var(--spacing-pad-lg); 
+    padding: var(--spacing-pad-lg);
+    
   }
  
   .texto-direita h2,
@@ -305,108 +310,6 @@
     padding: var(--spacing-pad-lg); 
   }
  
-  .footer-bottom {
-    gap: var(--spacing-pad-lg); 
-  }
-}
- 
- 
-/* Tablet */
-@media (max-width: 991px) {
- 
-  
- 
-  .clinic-intro {
-    padding: var(--spacing-pad-3xl) var(--spacing-pad-sm); /* 64px 16px — aproximação de 60px 25px */
-  }
- 
-  .clinic-intro h2 {
-    font-size: var(--text-size-section-subtitle); /* 24px — aproximação de 28px */
-  }
- 
-  .clinic-intro p {
-    font-size: var(--text-size-body); /* 16px — aproximação de 18px */
-  }
- 
-  .foto-esquerda,
-  .foto-direita {
-     height:     100%;
-    min-height: 600px;
-    max-height: 850px;
-  }
- 
-  .texto-direita,
-  .texto-esquerda {
-    height:      100%;
-    padding:     var(--spacing-pad-md) var(--spacing-pad-smd); /* 32px 24px — aproximação de 50px 35px */
-    text-align:  center;
-  }
- 
-  .texto-direita h2,
-  .texto-esquerda h2 {
-    font-size: var(--text-size-title3); /* 48px — aproximação de 42px */
-  }
- 
-  .texto-direita p,
-  .texto-esquerda p {
-    text-align:  left;
-    font-size:   var(--text-size-body); /* 16px — aproximação de 18px */
-    line-height: var(--text-leading-loose);
-  }
- 
-  .imagem-wrapper {
-    flex-direction: column;
-    gap:            var(--spacing-pad-md); /* 32px — aproximação de 30px */
-  }
- 
-  .linha-vertical {
-    display: none;
-  }
- 
-  .imagem-clinica img {
-    height: 350px;
-  }
- 
-  .clinica-page__beneficios {
-    padding: var(--spacing-pad-lg) var(--spacing-pad-null); /* 40px — aproximação de 60px */
-  }
- 
-  .card-beneficio {
-    margin-bottom: var(--spacing-pad-md); /* 32px — aproximação de 30px */
-  }
- 
-  .clinica {
-    padding: var(--spacing-pad-lg) var(--spacing-pad-null); /* 40px — aproximação de 60px */
-  }
- 
-  .clinica-page__imagens {
-    width:  100%;
-    height: 380px;
-  }
- 
-  .img-fundo {
-    width:  230px;
-    height: 300px;
-  }
- 
-  .img-frente {
-    width:  220px;
-    height: 260px;
-    left:   90px;
-    top:    60px;
-  }
- 
-  .texto-clinica {
-    margin:     var(--spacing-pad-md) auto var(--spacing-pad-null); /* 32px — aproximação de 50px */
-    text-align: center;
-  }
- 
-  .footer-clinica .row:first-child {
-    padding:    var(--spacing-pad-null);
-    text-align: center;
-  }
- 
-
 }
  
  
@@ -433,7 +336,11 @@
  
   .texto-direita,
   .texto-esquerda {
-    padding: var(--spacing-pad-smd) var(--spacing-pad-sm); /* 24px 16px — aproximação de 35px 22px */
+    padding: var(--spacing-pad-md) var(--spacing-pad-smd);
+    width:            100%;      /* ADICIONAR — garante que respeita o col */
+    min-width:        0;         /* ADICIONAR — fix clássico de overflow em flexbox */
+    overflow-wrap:    break-word; /* ADICIONAR — quebra palavras longas */
+    box-sizing:       border-box; /* ADICIONAR — padding não extrapola a largura */
   }
  
   .texto-direita h2,

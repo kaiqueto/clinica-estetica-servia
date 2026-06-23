@@ -227,12 +227,17 @@
   color:         var(--color-text-white);
   margin-bottom: var(--spacing-pad-null);
 }
- 
+
+.cards-destaque .col-md-4 {
+  display:         flex;
+  justify-content: center;
+}
+
 /* Card de serviço */
 .cards-destaque .card {
-  width:        100%;
-  width:         320px;
+  width:         263px;
   min-height:    369px;
+  flex:          0 0 auto;
   background:    var(--color-bg-tertiary);
   border:        none;
   border-radius: var(--radius-lg);             /* 16px */
