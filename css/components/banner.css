@@ -45,9 +45,6 @@
   margin-bottom: var(--spacing-pad-xlg);      /* 48px */
 }
 
-#span-gold-banner {
-  color: var(--color-brand-main);
-}
 
 /* Responsivo */
 @media (max-width: 950px) {

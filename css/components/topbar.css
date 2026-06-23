@@ -29,6 +29,16 @@
   white-space: nowrap;
 }
 
+/* .banner-topbar-content-cli span {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+  font-size:   14px;
+  font-weight: var(--font-weight-medium);
+  color:       var(--color-brand-soft);
+  white-space: nowrap;
+} */
+
 .banner-topbar-content i {
   color:     var(--color-brand-medium);
   font-size: var(--text-size-small);

@@ -230,7 +230,8 @@
  
 /* Card de serviço */
 .cards-destaque .card {
-  width:         263px;
+  width:        100%;
+  width:         320px;
   min-height:    369px;
   background:    var(--color-bg-tertiary);
   border:        none;
